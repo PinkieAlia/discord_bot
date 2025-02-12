@@ -32,7 +32,7 @@ async def load_extensions():
 async def main():
     async with bot:
         await load_extensions()
-        await bot.start(DISCORD_TOKEN)
+        await bot.start('DISCORD_TOKEN')
 
 # 確定執行此py檔才會執行
 if __name__ == "__main__":
