@@ -117,13 +117,13 @@ class Main(commands.Cog):
             dir_list = "操\n!抽卡\n!通靈\n!更新"
             await message.channel.send(dir_list)
 
-        if message.content == "<:E_L_lookfromleft:844916158628233236>" and message.author.id != 963178073853947904 and message.author.id !=1339484051551293482:
+        if message.content == "<:E_L_lookfromleft:844916158628233236>" and message.author.id != 963178073853947904:
             await message.channel.send("<:E_L_lookfromright:844916132649762837>")
-        if message.content == "<:E_L_lookfromright:844916132649762837>" and message.author.id != 963178073853947904 and message.author.id !=1339484051551293482:
+        if message.content == "<:E_L_lookfromright:844916132649762837>" and message.author.id != 963178073853947904:
             await message.channel.send("<:E_L_lookfromleft:844916158628233236>")
-        if message.content == "<:E_L_lul:823139120792469504>" and message.author.id != 963178073853947904 and message.author.id !=1339484051551293482:
+        if message.content == "<:E_L_lul:823139120792469504>" and message.author.id != 963178073853947904:
             await message.channel.send("<:E_L_lul:823139120792469504>")
-        if message.content == "<:NE_angryshark:1034081028974841957>" and message.author.id != 963178073853947904 and message.author.id !=1339484051551293482:
+        if message.content == "<:NE_angryshark:1034081028974841957>" and message.author.id != 963178073853947904:
             await message.channel.send("<:NE_angryshark:1034081028974841957>")
 
 
