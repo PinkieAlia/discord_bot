@@ -124,7 +124,9 @@ class Main(commands.Cog):
         if message.content == "<:E_L_lul:823139120792469504>" and message.author.id != 963178073853947904:
             await message.channel.send("<:E_L_lul:823139120792469504>")
         if message.content == "<:NE_angryshark:1034081028974841957>" and message.author.id != 963178073853947904:
-            await message.channel.send("<:NE_angryshark:1034081028974841957>")
+            await message.channel.send("<:NE_angryshark:1034081028974841957>")        
+        if message.content == "<:shuiyang_YA:1130502957583040582>" and message.author.id != 963178073853947904:
+            await message.channel.send("<:shuiyang_YA:1130502957583040582>")          
 
 
 # Cog 載入 Bot 中
