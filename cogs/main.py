@@ -119,7 +119,7 @@ class Main(commands.Cog):
             await msg.delete()
             msg = await message.channel.send("<:KI31:1075977250287144982><:KI33:1078228894433427506><:KI32:1077862545437765706>")
             await asyncio.sleep(1)
-            await msg.delete()            
+            await msg.delete()
             await message.channel.send("<:KI31:1075977250287144982><:KI32:1077862545437765706>")
         
         #指令表 之後想用更好的呈現方式
