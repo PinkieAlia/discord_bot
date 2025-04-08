@@ -139,6 +139,7 @@ class Main(commands.Cog):
         if message.content == "<:shuiyang_YA:1130502957583040582>" and message.author.id != 963178073853947904:
             await message.channel.send("<:shuiyang_YA:1130502957583040582>")          
 
+await self.bot.process_commands(message)
 
 # Cog 載入 Bot 中
 async def setup(bot: commands.Bot):
