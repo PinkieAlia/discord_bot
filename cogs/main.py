@@ -114,10 +114,10 @@ class Main(commands.Cog):
 
         #測試功能
         if message.content.startswith("!kiki"):
-            await message.channel.send("<:KI31:1075977250287144982><:KI32:1077862545437765706>")
+            msg = await message.channel.send("<:KI31:1075977250287144982><:KI32:1077862545437765706>")
             await asyncio.sleep(1)
             await msg.delete()
-            await message.channel.send("<:KI31:1075977250287144982><:KI33:1078228894433427506><:KI32:1077862545437765706>")
+            msg = await message.channel.send("<:KI31:1075977250287144982><:KI33:1078228894433427506><:KI32:1077862545437765706>")
             await asyncio.sleep(1)
             await msg.delete()            
             await message.channel.send("<:KI31:1075977250287144982><:KI32:1077862545437765706>")
